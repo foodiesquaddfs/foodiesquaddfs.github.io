@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Birb Club<title>
+</head>
+<body>
+
+  <style>
+   h1 {
+      text-align:center
+    }
+    p {
+      text-align:center
+    }
+
+    .container {
+      text-align: center;
+    }
+
+  </style>
+  <div style="background: mediumspringgreen;"></div>
+  <h1 style="color: mediumturquoise;">WELCOME TO BIRB CLUB!</h1>
+<div>
+<label>input 1.</label>
+<input type="text" id="firstname">
+</div>
+
+  <div>
+  <label>input 2.</label>
+  <input type="text" id="lastname">
+  </div>
+
+  <div>
+    <label>input 3.</label>
+    <input type="password" id="password">
+  </div>
+
+  <div>
+     <button onclick="show()">show my input</button>
+  </div>
+
+  </div>
+
+
+
+
+
+  <script>
+      function show() {
+        var fName = document.getElementById("firstname").value;
+        var kName = document.getElementById("lastname").value;
+        var hName = document.getElementById("password").value;
+        alert("Your Input: "+fName+space+kName+space+hName)
+        
+      }
+  </script>
+
+  
+</body>
+</html>
