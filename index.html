@@ -60,7 +60,7 @@
 <h1>What is Birb Club about?</h1>
 <p>idk, we have no idea either.</p>
 <p>Just kidding, we know a lot. Birb Club is about birds, we love them a lot. We're trying to convince other people to love them too, but we can't do that in our small organization that' not even official on Gmail. Birb Club's only got 2 members! The Creator of this website, and the leader. The sooner you come, the higher your rank will be.</p>
-<p>Also, you know what I said about the link of this website? Well, the Foodie World I know isn't official yet, so we're not breaking the copyright rules. Millets are for birds, and since Millets are bird food then that just explains the link to this website. I really cna't believe how long these 'paragraphs' are! LOL!</p>
+<p>Also, you know what I said about the link of this website? Well, the Foodie World I know isn't official yet, so we're not breaking the copyright rules. Millets are for birds, and since Millets are bird food then that just explains the link to this website. I really can't believe how long these 'paragraphs' are! LOL!</p>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -192,13 +192,13 @@ img {vertical-align: middle;}
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">4 / 6</div>
+  <div class="numbertext">5 / 6</div>
   <img src="xiao qing 4.jpg" style="width:30%">
   <div class="text">Bubble</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">4 / 6</div>
+  <div class="numbertext">6 / 6</div>
   <img src="the cutest bird.jpg" style="width:30%">
   <div class="text">Meme Cloud</div>
 </div>
@@ -248,6 +248,156 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  </style>
+  </head>
+  <body>
+  
+
+  <div class="container" onclick="myFunction(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  
+  <script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .accordion {
+    background-color: rgb(255, 255, 255);
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(114, 87, 236); 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h2>More Birb Club Information ;)</h2>
+  
+  <button class="accordion">Section 1</button>
+  <div class="panel">
+    <p>Butt</p>
+  </div>
+  
+  <button class="accordion">Section 2</button>
+  <div class="panel">
+    <p>Did I troll you on Section 1? Lmao!</p>
+  </div>
+  
+  <button class="accordion">Section 3</button>
+  <div class="panel">
+    <p>Anyways, this website is still under development, and won't be finished anytime soon. We're still doing some programming, stuff like that.</p>
+  </div>
+  
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: rgb(0, 204, 255);
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.active {
+  background-color: #00b7ff;
+}
+
+</style>
+<body>
+
+
+<div class="icon-bar">
+  <a class="active" href="#"><i class="fa fa-home"></i></a> 
+  <a href="#"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a> 
+</div>
+
 
 
 
